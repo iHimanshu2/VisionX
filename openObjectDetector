@@ -1,4 +1,0 @@
-cd VisionX
-source vision-x-env/bin/activate
-python3 vision.py --modeldir=tensorflow_model --edgetpu --resolution=600x400
-

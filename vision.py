@@ -145,7 +145,7 @@ while True:
     t1 = cv2.getTickCount()
     frame1 = videostream.read()
 
-    fp = open("/home/pi/textrecognitionstatus.txt", "r+")
+    fp = open("textrecognitionstatus.txt", "r+")
     text_status = fp.read()
     if text_status == "True":
         fp.seek(0)
